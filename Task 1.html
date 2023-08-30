@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <h1>Travel reservation form </h1>
+ <h3>*denotes mandatory </h3>
+ <form>
+    <label for= "fname"><strong>Full name*:</strong></label><br>
+    <input type="text" id="fname" placeholder="FirstName LastName"><br>
+    <label for= "email"><strong>Email address*:</strong></label><br>
+    <input type="text" id="email" placeholder="EMAIL_ADDRESS"><br>
+    <label for= "tourpackage"><strong>Select Tour Package*:</strong></label><br>
+    <select id="tourpackage" name="tourpackage" size="1" style="background-color: rgb(219, 214, 214);">
+        <option value="goa">Goa</option>
+        <option value="manali">Manali</option>
+        <option value="Kashmir">Kashmir</option>
+
+    </select><br>
+    <label for= "arrivaldate"><strong> Arrival date*:</strong> </label><br>
+    <input type="date" id="arrivalDate" placeholder="m/d/y"><br>
+    <label for="numberofperson" ><strong> Number of Persons*:</strong> </label><br>
+    <input type="text" id="Numberofperson" placeholder="UNKNOWN_TYPE"><br>
+    <label for="question"><strong>What would you want to avail?*</strong></label><br>
+    <lable  for="boarding"><strong>Boarding</strong></lable>
+    <input  type="checkbox" id="boarding" name="boarding"><br>
+    <lable  for="fooding"><strong>Fooding</strong></lable>
+    <input  type="checkbox" id="fooding" name="fooding" style="background-color: gray;" ><br>
+    <lable  for="siteseeing"> <strong>Site seeing</strong></lable>
+    <input  type="checkbox" id="siteseeing" name="siteseeing"><br>
+
+    <label for=" discount" ><strong>Discount Coupon code:</strong></label><br>
+    <input type="text" name="" id="discount" placeholder="UNKNOWN_TYPE"><br>
+    <label for ="terms" ><strong>Terms and conditions*</strong></label><br>
+    <input type="radio" id="agree"><label for="agree" ><strong>I agree </strong></label>
+    <input type="radio" id="disagree"><label for="disagree"><strong>I disagree</strong></label><br>
+
+    <input type="submit" id ="completereservation" value="Complete reservation" >
+
+
+
+ </form>
+ </body>
+</html>
